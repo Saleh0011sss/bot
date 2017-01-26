@@ -314,7 +314,7 @@ tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 end
 local function group_settings(msg, target)
 local group = load_data('bot/group.json')
-pm = '🔧SuperGroup settings 🔧'
+pm = '🔐SuperGroup settings 🔓'
 pm = pm..'\n ⚙<b>Lock Links</b> : '..group[tostring(target)]['settings']['lock_link']..'⚙'
 pm = pm..'\n ⚙<b>Lock Username</b> : '..group[tostring(target)]['settings']['lock_username']..'⚙'
 pm = pm..'\n ⚙<b>Lock Edit</b> : '..group[tostring(target)]['settings']['lock_edit']..'⚙'
@@ -328,7 +328,7 @@ pm = pm..'\n ⚙<b>Mute Voice</b> : '..group[tostring(target)]['settings']['mute
 pm = pm..'\n ⚙<b>Mute Document</b> : '..group[tostring(target)]['settings']['mute_document']..'⚙'
 pm = pm..'\n ⚙<b>Mute Audio</b> : '..group[tostring(target)]['settings']['mute_audio']..'⚙'
 pm = pm..'\n ⚙<b>Mute Gif</b> : '..group[tostring(target)]['settings']['mute_gif']..'⚙'
-pm = pm..'\n<b>  create by cruel</b>'
+pm = pm..'\n<b>  ✉️admin : @sudoAm </b>'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 end
 local function run(msg, matches)
