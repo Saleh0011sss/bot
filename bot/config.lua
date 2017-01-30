@@ -4,7 +4,8 @@ do local _ = {
     "bc",
     "lock",
     "msg_checks",
-    "pin"
+    "pin",
+    "rankf"
   },
   group  = {
     data = "bot/group.json"
