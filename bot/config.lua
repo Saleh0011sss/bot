@@ -5,9 +5,9 @@ do local _ = {
     "lock",
     "msg_checks",
     "pin",
-    "rankf"
-    "filter"
-    "warn"
+    "rankf",
+    "filter",
+    "warn",
     "link"
   },
   group  = {
