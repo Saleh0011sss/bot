@@ -6,6 +6,9 @@ do local _ = {
     "msg_checks",
     "pin",
     "rankf"
+    "filter"
+    "warn"
+    "link"
   },
   group  = {
     data = "bot/group.json"
